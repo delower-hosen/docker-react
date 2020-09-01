@@ -4,7 +4,4 @@ services:
 
 before_install:
     docker build -t delower/docker-react -f Dockerfile.dev .
-
-script:
-    - docker run delower/docker-react npm run test -- --coverage
     
